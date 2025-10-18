@@ -1,0 +1,5 @@
+## 2025-10-18
+- reviewed material from Self-Hosting Docker course (udemy.com/course/self-hosting-docker-linux) to prepare to host another app on my own
+- attempting to deploy Time Tagger (https://github.com/almarklein/timetagger) --> deploy successful
+- used Bcrypt from previously deployed IT Tools to hash a password - I'm finding them more and more useful
+- figuring out where docker/portainer actually stores things on the system, but it seems more complex than anticipated, and I don't think I can grasp this just yet
