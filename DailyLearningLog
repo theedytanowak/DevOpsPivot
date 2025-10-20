@@ -1,5 +1,12 @@
-## 2025-10-18
+## 2025-10-18 SAT
 - reviewed material from Self-Hosting Docker course (udemy.com/course/self-hosting-docker-linux) to prepare to host another app on my own
 - attempting to deploy Time Tagger (https://github.com/almarklein/timetagger) --> deploy successful
 - used Bcrypt from previously deployed IT Tools to hash a password - I'm finding them more and more useful
-- figuring out where docker/portainer actually stores things on the system, but it seems more complex than anticipated, and I don't think I can grasp this just yet
+- figuring out where Docker/Portainer actually stores things on the system, but it seems more complex than anticipated, and I don't think I can grasp this just yet
+
+## 2025-10-20 MON
+- signed up for an extensive live course for DevOps - not necessarily because I can't learn myself, but to have an explicit reason why I can't go out or fool around (my boundary-setting skill is still under development T^T)
+- for the course, I have to install CentOS, and after considering my options, available hardware, and convenience, I decided to have a virtual machine on a MacBook
+- went through the hurdle of downloading VMware Fusion for Mac from the Broadcom website (the user experience was truly terrible)
+- got an error worthy of a dummy I am: "This VM cannot be powered on because it requires x86 machine architecture, which is incompatible with this ARM machine architecture host" - redownloading a correct ISO
+- CentOS installed in a VM through VMware Fusion and running correctly
