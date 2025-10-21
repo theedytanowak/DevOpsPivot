@@ -10,3 +10,9 @@
 - went through the hurdle of downloading VMware Fusion for Mac from the Broadcom website (the user experience was truly terrible)
 - got an error worthy of a dummy I am: "This VM cannot be powered on because it requires x86 machine architecture, which is incompatible with this ARM machine architecture host" - redownloading a correct ISO
 - CentOS installed in a VM through VMware Fusion and running correctly
+
+## 2025-10-21 TUE
+- going through various escape characters for the `echo` command. The most interesting one so far is \r - "carriage return". I didn't know there was a backspace \b either. Learned how to do math directly in terminal: `echo $((10 - 4))`
+- the tutorial I bought is perfect: full of mistakes and it's making me double-check everything the tutor is talking about. This is exactly what I needed - believe no one, try and check yourself, lol.
+- `id` output: user id, primary group, supplementary groups
+- to check all groups, read /etc/groups
