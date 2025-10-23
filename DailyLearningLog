@@ -16,3 +16,6 @@
 - the tutorial I bought is perfect: full of mistakes and it's making me double-check everything the tutor is talking about. This is exactly what I needed - believe no one, try and check yourself, lol.
 - `id` output: user id, primary group, supplementary groups
 - to check all groups, read /etc/groups
+
+## 2025-10-23 THU | Mood 2/10 but it is what it is
+- practiced cp and mv commands with various options. I found `mv -i` quite practical to prevent accidental overwrite, also `cp -n` to only copy without overwriting repeated files. Examined man pages. 
