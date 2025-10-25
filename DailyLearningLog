@@ -18,4 +18,12 @@
 - to check all groups, read /etc/groups
 
 ## 2025-10-23 THU | Mood 2/10 but it is what it is
-- practiced cp and mv commands with various options. I found `mv -i` quite practical to prevent accidental overwrite, also `cp -n` to only copy without overwriting repeated files. Examined man pages. 
+- practiced `cp` and `mv` commands with various options. I found `mv -i` quite practical to prevent accidental overwrite, also `cp -n` to only copy without overwriting repeated files. Examined man pages. 
+
+## 2025-10-24 FRI
+- learned that the `touch` command will not overwrite a pre-existing file - it will only change the file's access and modification times, and this is its main function (not to create new files).
+- practiced `mkdir`, `rmdir`, and `rm` commands. Again flag `-i` is proving useful.
+
+## 2025-10-25 SAT
+-  went through the orientation call for a Geeks4Geeks DevOps course. I got up at 7:25 AM my time on Saturday to join, and I didn't have to force myself out of bed, even though I'm sleep deprived. It's exciting. The live course itself also looks really promising.
+- reviewed head and tail commands for text stream processing
