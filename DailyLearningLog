@@ -27,3 +27,7 @@
 ## 2025-10-25 SAT
 -  went through the orientation call for a Geeks4Geeks DevOps course. I got up at 7:25 AM my time on Saturday to join, and I didn't have to force myself out of bed, even though I'm sleep deprived. It's exciting. The live course itself also looks really promising.
 - reviewed head and tail commands for text stream processing
+
+## 2025-10-26 SUN
+- learned about `tac` command, which prints the content of the file just like the `cat` command, but bottom-up - last line first
+- I need to switch to using `less` and `more` commands more often since they have added functionality. But I can also open everything in Vim
