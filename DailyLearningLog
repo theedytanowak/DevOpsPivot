@@ -35,3 +35,8 @@
 ## 2025-10-27 MON
 - played with the `cut` command. I understand now how we can define the delimiter with `-d` option and display only certain fields in certain positions of the text file (add `-f <num>`). Option `-w` by default defines delimiter as whitespaces (spaces and tabs) and can be an alternative to `-d " "`
 - exercised various `grep` options and found a few cool ones, like `-A2 -B2` returns the search result and 2 lines before it and 2 lines after it. Probably my most used option will be `-i` since it makes the search case insensitive. I recognize that I need to learn regular expressions to use the full potential of `grep`.
+
+## 2025-10-28 TUE
+- Learned `sort` and `comm` commands and how to combine them. Discovered that it’s not possible to compare two `sort` outputs directly inline (e.g., `comm (sort ...) (sort ...)`) because `comm` expects files. The workaround is process substitution, which lets the shell treat command output as a file: `comm <(sort ...) <(sort ...)`. Neat.
+- Noted that many commands use different option letters for similar things (e.g., the delimiter flag `-t ' '`), which can be confusing. I’ll need repetition to get used to it.
+- Practiced `sed` and `tee` for text processing and combining them in pipelines, then using `comm` to compare results. Learned that on Linux `sed -i` edits files in place directly, while on macOS it requires `sed -i ''` (or a suffix like `.bak`) to work without errors.
