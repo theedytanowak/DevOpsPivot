@@ -42,4 +42,9 @@
 - Practiced `sed` and `tee` for text processing and combining them in pipelines, then using `comm` to compare results. Learned that on Linux `sed -i` edits files in place directly, while on macOS it requires `sed -i ''` (or a suffix like `.bak`) to work without errors.
 
 ## 2025-10-30 THU
-- very busy with holiday preparations but practiced tr, uniq, and wc in a spare moment. Super proud that I showed up. 
+- very busy with holiday preparations but practiced tr, uniq, and wc in a spare moment. Super proud that I showed up.
+
+## 2025-10-31 FRI
+- refreshed knowledge of `chmod`, `chown`, and `chgrp` commands
+- reviewed the difference between `gzip` (compresses a single file) and `tar` (bundles multiple files, with optional compression)
+- learned that `tar -czvf` creates a compressed `.tar.gz` archive directly (using gzip), while `tar -cjvf` uses bzip2 for stronger but slower compression
