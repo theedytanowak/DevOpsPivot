@@ -48,3 +48,12 @@
 - refreshed knowledge of `chmod`, `chown`, and `chgrp` commands
 - reviewed the difference between `gzip` (compresses a single file) and `tar` (bundles multiple files, with optional compression)
 - learned that `tar -czvf` creates a compressed `.tar.gz` archive directly (using gzip), while `tar -cjvf` uses bzip2 for stronger but slower compression
+
+## 2025-11-01 SAT
+- had my first live class with the DevOps training group. Learned how virtualization lets several systems share one physical machine. It helped me understand how servers can run many isolated environments at the same time and why this is important for efficient use of hardware.  
+- practiced Linux environment variables. Used `export` to create a variable, `unset` to remove it, and added it to `~/.bashrc` to make it permanent. Learned that variables created with `export` only last for one session unless saved in a config file.  
+- compared `printenv` and `env`. Learned that both show environment variables, but `env` can also run commands with temporary variable values.  
+- created and ran a simple shell script to display some environment variables. Learned that a script can only access variables that were exported, which helped me understand how environment inheritance works between a shell and its child processes.  
+
+## 2025-11-02 SUN
+- practiced regex patterns through https://regexlearn.com/learn/regex101 - it was alright but for some reason the last lessons had no practice part. I will try https://regexone.com/ next, then https://scrimba.com/learn-regular-expressions-c0d. One can never have enough practice. I don't think having a regex cheat sheet is ever enough.
