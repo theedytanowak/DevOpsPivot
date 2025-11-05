@@ -60,3 +60,8 @@
 
 ## 2025-11-04 TUE
 - continued regex practice with https://regexone.com/ as planned. Repetition really makes perfect.
+
+## 2025-11-05 WED
+- am I a regex pro or what? It all makes sense now. I can easily use it with `grep -E` or `sed -E` now.
+- refreshed memory of basic Linux user CRUD commands: id, useradd, usermod, userdel, groups, groupadd, passwd
+- unexpected lessons: (1/2) `whoami` prints who you are, `sudo whoami` prints who you become when using `sudo`; (2/2) To add user to sudoers on Ubuntu/Debian execute `sudo usermod -aG sudo <username>` and on RedHat/CentOS/Fedora `sudo usermod -aG wheel <username>` - optionally do it through `visudo`
