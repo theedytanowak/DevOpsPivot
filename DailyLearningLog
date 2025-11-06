@@ -65,3 +65,7 @@
 - am I a regex pro or what? It all makes sense now. I can easily use it with `grep -E` or `sed -E` now.
 - refreshed memory of basic Linux user CRUD commands: id, useradd, usermod, userdel, groups, groupadd, passwd
 - unexpected lessons: (1/2) `whoami` prints who you are, `sudo whoami` prints who you become when using `sudo`; (2/2) To add user to sudoers on Ubuntu/Debian execute `sudo usermod -aG sudo <username>` and on RedHat/CentOS/Fedora `sudo usermod -aG wheel <username>` - optionally do it through `visudo`
+
+## 2025-11-06 THU
+- studied how the Linux terminal, shell, and kernel interact. Finally understood something that confused me years ago. Back in 2016, when I worked in support for a Linux-based application, I used to tell users to run installation scripts with bash <filename>.sh. The developers insisted on using ./<filename>.sh, but they couldn’t really explain why (I suspect they were interns). Now it’s clear: running a script with bash forces it to execute in the Bash shell, while ./<filename>.sh runs it using the shell specified in the script’s first line — the shebang (#!/bin/bash, for example). This makes scripts portable across systems with different default shells.
+- wrote a simple shell script with variables, arithmetic operations, and user input to get a feel for the syntax. Bash scripting feels surprisingly natural. Hope it’s not my famous final words.
