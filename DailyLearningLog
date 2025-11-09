@@ -69,3 +69,8 @@
 ## 2025-11-06 THU
 - studied how the Linux terminal, shell, and kernel interact. Finally understood something that confused me years ago. Back in 2016, when I worked in support for a Linux-based application, I used to tell users to run installation scripts with bash <filename>.sh. The developers insisted on using ./<filename>.sh, but they couldn’t really explain why (I suspect they were interns). Now it’s clear: running a script with bash forces it to execute in the Bash shell, while ./<filename>.sh runs it using the shell specified in the script’s first line — the shebang (#!/bin/bash, for example). This makes scripts portable across systems with different default shells.
 - wrote a simple shell script with variables, arithmetic operations, and user input to get a feel for the syntax. Bash scripting feels surprisingly natural. Hope it’s not my famous final words.
+
+## 2025-11-09 SUN
+- learned how to run commands in the background by adding `&` at the end — useful when a process might take a while but you still want to keep working (e.g., `sleep 500 &`). You can view all background jobs with `jobs`.
+- discovered how to bring a process back to the foreground using `fg <jobID>` or send it back to the background with `bg <jobID>`. They’ll still stop once the terminal window is closed, though — so no sneaky long runs after you log out.
+- explored various options in the `top` command to get familiar with its interface and understand system resource usage in real time.
