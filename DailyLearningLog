@@ -74,3 +74,7 @@
 - learned how to run commands in the background by adding `&` at the end — useful when a process might take a while but you still want to keep working (e.g., `sleep 500 &`). You can view all background jobs with `jobs`.
 - discovered how to bring a process back to the foreground using `fg <jobID>` or send it back to the background with `bg <jobID>`. They’ll still stop once the terminal window is closed, though — so no sneaky long runs after you log out.
 - explored various options in the `top` command to get familiar with its interface and understand system resource usage in real time.
+
+## 2025-11-19 WED
+- reviewed the `ps` command and its useful options, like `-e` to display processes from all users and `-f` for a fuller view that includes the path to the executable.
+- practiced the `kill` command and learned the difference between SIGTERM (signal 15) for graceful termination and SIGKILL (signal 9) for forceful termination. Also confirmed that running `kill <PID>` with no option sends SIGTERM by default.
