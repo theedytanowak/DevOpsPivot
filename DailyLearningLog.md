@@ -78,3 +78,7 @@
 ## 2025-11-19 WED
 - reviewed the `ps` command and its useful options, like `-e` to display processes from all users and `-f` for a fuller view that includes the path to the executable.
 - practiced the `kill` command and learned the difference between SIGTERM (signal 15) for graceful termination and SIGKILL (signal 9) for forceful termination. Also confirmed that running `kill <PID>` with no option sends SIGTERM by default.
+
+## 2025-11-20 THU
+- learned how `nohup` lets a process keep running even after the terminal closes — useful for long-running tasks or when I need to move on to other work without keeping the session open. The common pattern is `nohup python app.py > out.log 2> err.log &`` to redirect stdout and stderr separately. If I just run `nohup python app.py &``, everything goes into the default `nohup.out`.
+- practiced using `disown` for jobs I’ve already sent to the background but still want to survive logout. I can list background jobs with jobs -l and detach a specific one using disown %<jobID>. The trade-off is that once a job is disowned, I can’t redirect its output anymore.
