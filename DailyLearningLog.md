@@ -82,3 +82,6 @@
 ## 2025-11-20 THU
 - learned how `nohup` lets a process keep running even after the terminal closes — useful for long-running tasks or when I need to move on to other work without keeping the session open. The common pattern is `nohup python app.py > out.log 2> err.log &`` to redirect stdout and stderr separately. If I just run `nohup python app.py &``, everything goes into the default `nohup.out`.
 - practiced using `disown` for jobs I’ve already sent to the background but still want to survive logout. I can list background jobs with jobs -l and detach a specific one using disown %<jobID>. The trade-off is that once a job is disowned, I can’t redirect its output anymore.
+
+## 2025-11-21 FRI
+- got acquainted with the `nice` and `renice` commands. `nice` starts a process with a specific priority, while `renice` adjusts the priority of a process that’s already running. Priorities range from -20 (highest, requires `sudo`) to 19 (lowest). Basic usage: `nice -n 10 my_program` and `sudo renice -n -5 -p <PID>`.
